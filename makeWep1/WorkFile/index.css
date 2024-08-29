@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body{
+  background-image: url(../resources/images/room.jpg);
+}
+
+.container{
+  background-color: rgba(0,0,0,0.7);
+  width : 100vw;
+  height : 100vh;
+
+  display: grid;
+
+  grid-template-rows: 100px 2fr;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* header */
+
+.header{
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-right-ul{
+  list-style: none;
+  display: flex;
+  gap : 15px;
+}
+
+/* main */
+
+.main{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.main-description{
+  display:flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  gap: 15px;
+
+  text-align: center;
+}
+
+.main-description-title{
+  font-size: 5rem;
+}
+
+.main-description-info{
+  font-size: 1.5rem;
+}
+
+.main-description-btn{
+  width: 150px;
+  height: 70px;
+  background-color: transparent;
+  font-size: 1.2rem;
+
+  border: 1px solid white;
+}
